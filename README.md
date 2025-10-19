@@ -1,6 +1,6 @@
 # leanku/ai
 
-🚀 一个优雅、高效、可扩展的 AI SDK，支持多种 AI 提供商（OpenAI, DeepSeek, Ollama 等）。
+🚀 一个简单、可扩展的 AI SDK，支持多种 AI 提供商（OpenAI, DeepSeek, Ollama 等）。
 
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-8892BF.svg)](https://www.php.net/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
