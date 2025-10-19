@@ -1,0 +1,8 @@
+/vendor/
+.env
+composer.lock
+.DS_Store
+.idea/
+.vscode/
+.git/
+*.cache/

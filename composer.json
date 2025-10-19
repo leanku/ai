@@ -1,0 +1,36 @@
+{
+    "name": "leanku/ai",
+    "description": "ai客户端调用，DeepSeek, OpenAI, Ollama,等",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leanku\\Ai\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leanku\\Ai\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leanku"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.8",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "mockery/mockery": "^1.6"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
